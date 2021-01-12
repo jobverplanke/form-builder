@@ -1,0 +1,30 @@
+{
+    "name": "jobverplanke/cms-form-builder",
+    "description": "Form builder",
+    "require": {
+        "illuminate/database": "^8.21",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Job Verplanke",
+            "email": "job.verplanke@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "JobVerplanke\\FormBuilder\\": "src/"
+        }
+    }
+}
